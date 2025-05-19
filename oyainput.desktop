@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=oyainput
+Exec=oyainput
+X-GNOME-Autostart-enabled=true
+Comment=Start oyainput on login
