@@ -8,6 +8,6 @@ ln -sf -T `pwd`/.oyainputconf ~/.oyainputconf
 # Ensure the autostart directory exists
 mkdir -p ~/.config/autostart
 
-# Link output.desktop to the autostart directory as oyainput.desktop
-ln -sf -T `pwd`/oyainput.desktop ~/.config/autostart/oyainput.desktop
+# Copy the .desktop file to the user's autostart directory to enable automatic startup
+cp /usr/share/applications/com.github.shimamu.oyainput-fcitx5-fix.desktop ~/.config/autostart/
 
